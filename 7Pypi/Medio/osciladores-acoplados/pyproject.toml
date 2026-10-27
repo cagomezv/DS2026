@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# ⚠ El nombre debe ser ÚNICO en PyPI. Cámbielo, p. ej. "osciladores-acoplados-tunombre"
+name = "osciladores-acoplados"
+version = "0.1.0"
+description = "Simulación de osciladores armónicos acoplados en 1D: modos normales e integradores numéricos (patrón Strategy)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Tu Nombre", email = "tu_correo@ejemplo.com" }]
+keywords = ["física", "osciladores", "modos normales", "simulación", "educación"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+gui = ["matplotlib>=3.5"]
+dev = ["pytest>=7", "build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/tu_usuario/osciladores-acoplados"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
