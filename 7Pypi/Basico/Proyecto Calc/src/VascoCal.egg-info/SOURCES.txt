@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/VascoCal/Calculadora.py
+src/VascoCal/__init__.py
+src/VascoCal.egg-info/PKG-INFO
+src/VascoCal.egg-info/SOURCES.txt
+src/VascoCal.egg-info/dependency_links.txt
+src/VascoCal.egg-info/top_level.txt
+tests/test_core.py

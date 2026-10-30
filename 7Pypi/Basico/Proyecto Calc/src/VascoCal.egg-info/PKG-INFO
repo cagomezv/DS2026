@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: VascoCal
+Version: 0.2.0
+Summary: Una calculadora basada en el patrón State en Python
+Author-email: Carlos Andrés Gómez Vasco <tu_correo@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/tuusuario/calculadora-py
+Project-URL: Bug Tracker, https://github.com/tuusuario/calculadora-py/issues
+Description-Content-Type: text/markdown
+
+# Calculadora Py
+
+Calculadora en Python implementada con el patrón de diseño **State**.
+
+## Instalación
+
+```bash
+pip install VascoCalc
